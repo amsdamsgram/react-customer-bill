@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sky Challenge</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bundle.min.css">
+    </head>
+    <body>
+
+        <script src="libs/shims/es5-shim.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="libs/shims/html5shiv-printshiv.min.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <!-- JQUERY CDN FALLBACK -->
+        <script>window.jQuery || document.write('<script src="libs/jquery-2.1.4.min.js">\x3C/script>')</script>
+
+        <!-- BOOTSTRAP CDN FALLBACK -->
+        <script>$(document).ready(function() {
+            var bodyColor = $('body').css('color'); if(bodyColor != 'rgb(51, 51, 51)') {
+                $("head").prepend("<link rel='stylesheet' href='libs/bootstrap/css/bootstrap.min.css' type='text/css' media='screen'>");}
+        });</script>
+
+        <script src="js/bundle.min.js"></script>
+
+    </body>
+</html>

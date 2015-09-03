@@ -1,0 +1,40 @@
+.bill_container{
+    margin: 20px auto;
+}
+.logo{
+    background-image: url('../img/logo.png');
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+}
+.bill_section_header{
+    background-color: #0D679F;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.bill_section_arrow{
+    margin-left: 10px;
+}
+.bill_info{
+    width: 300px;
+    display: inline-block;
+}
+.bill_due_date{
+    color: red;
+}
+.bill_currency:before{
+    content:'£';
+}
+
+/************ HIGH RESOLUTION *******************/
+@media
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .logo{
+        background-image: url('../img/logo@2x.png');
+        background-size: 150px 100px;
+    }
+}
